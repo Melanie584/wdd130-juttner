@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "wdd130-juttner",
+			"path": "."
+		},
+		{
+			"name": "Images",
+			"path": "../../../Downloads/Images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wdd130-juttner"
+	}
+}
