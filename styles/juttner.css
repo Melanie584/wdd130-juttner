@@ -3,21 +3,30 @@
     width: 20%;
 }
 .image2{
-    height: 20%;
-    width: 20%;
+    height: 250px;
+    width: 250px;
     float: right;
     margin-right: 20px;
     position: relative;
-    top: -450px;
+    top: -260px;
+    object-fit: cover;        
+    border-radius: 10px;      
+    display: block;
+    margin-bottom: 15px;
 }
 
 .image3{
-    height: 20%;
-    width: 20%;
+    height: 250px;
+    width: 250px;
     float: right;
-    margin-right: -230px;
+    margin-right: -250px;
     position: relative;
-    top: -290px;
+    top: -51px;
+    object-fit: cover;
+    object-fit: cover;       
+    border-radius: 10px;      
+    display: block;
+    margin-bottom: 15px;
 }
 
 .image4{
@@ -100,7 +109,7 @@ h3.text-box{
     margin-top: 40px;
 }
 
-h4{
+/* h4{
     text-align: right;
     margin-right: 100px;
     position: relative;
@@ -119,7 +128,7 @@ h6{
     right: -140px;
     position: relative;
     top: -40px
-}
+} */
 
 .bottom-section{
     display: flex;
@@ -141,6 +150,11 @@ h6{
     flex-direction: column;
     gap: 50px;
     font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+div.text-content p{
+    font-size: 20px;
 }
 
 .image-right{
@@ -176,3 +190,49 @@ h6{
 header{
     margin-bottom: 0;
 }
+
+.apply{
+    position: absolute;      /* Place it relative to its parent */
+    top: 700px;               /* Distance from top of parent container */
+    left: 5%;               /* Center horizontally */
+    width: 120px;
+    height: 65px;
+    background-color: #dabe06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;     /* Optional: rounded corners */
+    z-index: 10;   
+}
+
+.apply-link{
+    text-decoration: none;
+    color: #F7F7F7;
+}
+
+.apply-link:hover{
+    text-decoration: none;
+    background-color: #332e2e;
+}
+
+.account{
+    border: 50px;
+    background-color: #dabe06;
+    width: 300px;
+    height: 200px;
+    margin: 0 20px;
+    top: -200px;
+    position: relative;
+    text-align: center;
+}
+
+.minecraft-button{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-100%);
+}
+
+
