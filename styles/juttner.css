@@ -263,7 +263,15 @@ header{
     margin-left: auto;
     width: 100%;
     padding-left: 26%;
-    margin-top: -350px;
+}
+
+footer {
+    width: 100%;
+    background-color: #131212;
+    color: #dabe06;
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 
 .follow{
